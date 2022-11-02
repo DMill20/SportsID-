@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+  }
+body{
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .7)),
+  url("images/Background\ Image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity:.7;
+  height: 120px;
+  width: 100%;
+  padding: 8px;
+}
+  section {
+    padding: 70px 17%;
+  }
+  .home {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title h2  {
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    opacity: .9;
+    padding: 8px;
+    border-radius: .5rem;
+    
+  }
+  .title h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: red;
+    opacity: .9;
+    border-radius: .5rem;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+  } 
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .7)),
+    url("images/Background\ Image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 30px;
+    border-radius: .5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    color: #001;
+  }
+  
+  .wrapper .title h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .contact-form{
+    display: flex;
+  }
+  
+  .input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+  }
+  
+  .input-fields,
+  .msg{
+    width: 48%;
+  }
+  
+  .input-fields .input,
+  .msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .msg textarea{
+    height: 212px;
+  }
+  
+  ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #fff;
+  }
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff;
+  }
+  :-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff;
+  }
+  
+  .btn {
+  background: transparent;
+  border: solid 2px #fff;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  }
+  
